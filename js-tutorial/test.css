@@ -100,7 +100,7 @@
 }
 
 /*Mobile Navbar*/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -124,6 +124,7 @@
         height: 50vh;
         z-index: -1;
         background-color:#131313;
+        border-bottom-left-radius: 8px;
     }
     .navbar__menu.active {
         background: #131313;
@@ -182,8 +183,35 @@
     }
 }
 /*Main Styling*/
+.main__container {
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding-bottom: 50px;
+    width: 100%;
+    border: 3px solid red;
+}
+.main__content h1{
+    color: white;
+    border: 3px solid green;
+    z-index: 3;
+}
+.main__content p{
+    color: white;
+    border: 3px solid green;
+    z-index: 3;
+}
+
+.main__img__container {
+    width: 100%;
+    border: 3px solid green;
+    align-self: flex-end;
+    z-index: 2;
+}
 .main__image {
     width: 100%;
+    border-bottom-left-radius: 10px;
 }
 /*Mobile Main*/
 /*Footer Styling*/
@@ -217,4 +245,8 @@
     font-size: 0.8rem;
     padding-left: 5px;
     text-decoration: none;
+}
+.footer__links:hover {
+    color: rgb(182, 182, 182);
+    transition: all 0.3s ease;
 }
