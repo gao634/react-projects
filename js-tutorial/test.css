@@ -243,10 +243,10 @@
         
     }
     .main__content h1{
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
     .main__content p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
 @media screen and (max-width: 720px) {
