@@ -190,17 +190,25 @@
     justify-self: center;
     padding-bottom: 50px;
     width: 100%;
-    border: 3px solid red;
 }
 .main__content {
-    position: absolute;
     top: 0%;
     z-index: 3;
     width:50%;
     top: 50%;
+    margin: 20px;
+    padding: 2rem;
 }
 .main__content h1{
     color: white;
+    padding-bottom: 5px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 .main__content p{
     color: white;
@@ -208,16 +216,14 @@
 
 .main__img__container {
     width: 70%;
-    border: 3px solid green;
     align-self: flex-end;
     z-index: 2;
-    position: absolute;
     top: 0%;
     right: 0%;
 }
 .main__image {
     width: 100%;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 25px;
 }
 /*Mobile Main*/
 /*Footer Styling*/

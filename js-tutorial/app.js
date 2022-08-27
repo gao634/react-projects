@@ -13,4 +13,3 @@ function change_height() {
     print(img_height);
     main_container.style.height = '1000px';
 }
-change_height()
