@@ -5,6 +5,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+/*navbar styling*/
 .navbar {
     background: #131313;
     height: 80px;
@@ -45,10 +46,6 @@
     align-items:center;
     height: 40%;
     font-weight: 700;
-}
-
-.fa-gem {
-    margin-right: 0.5rem;
 }
 
 .navbar__menu {
@@ -102,6 +99,7 @@
     transition: all 0.3s ease;
 }
 
+/*Mobile Navbar*/
 @media screen and (max-width: 720px) {
     .navbar__container {
         display: flex;
@@ -182,4 +180,14 @@
         display: block;
         cursor: pointer;
     }
+}
+/*Main Styling*/
+/*Mobile Main*/
+/*Footer Styling*/
+.footer__container {
+    background-color: #131313;
+    border: 3px solid red;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
 }
