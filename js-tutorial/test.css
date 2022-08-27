@@ -184,7 +184,7 @@
 }
 /*Main Styling*/
 .main__container {
-    background-color: #303030;
+    background-color: #212121;
     display: flex;
     align-items: center;
     justify-self: center;
@@ -192,22 +192,28 @@
     width: 100%;
     border: 3px solid red;
 }
+.main__content {
+    position: absolute;
+    top: 0%;
+    z-index: 3;
+    width:50%;
+    top: 50%;
+}
 .main__content h1{
     color: white;
-    border: 3px solid green;
-    z-index: 3;
 }
 .main__content p{
     color: white;
-    border: 3px solid green;
-    z-index: 3;
 }
 
 .main__img__container {
-    width: 100%;
+    width: 70%;
     border: 3px solid green;
     align-self: flex-end;
     z-index: 2;
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }
 .main__image {
     width: 100%;
