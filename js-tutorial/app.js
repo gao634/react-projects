@@ -9,11 +9,15 @@ menu.addEventListener('click', function() {
 function change_height() {
     var main_image = document.getElementById('main__image__container');
     var main_container = document.getElementById('main__container');
+    var main = document.getElementById('main');
     img_height = main_image.offsetHeight;
+    img_height *= 1.1;
+    img_height -= 50;
     string_height = img_height.toString() + 'px';
-    main_container.style.height = string_height;
+    
+    main.style.height = string_height;
 }
 change_height();
-$(window).resize(function() {
+window.addEventListener("resize", function(event) {
     change_height();
-  });
+})
